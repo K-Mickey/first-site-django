@@ -1,0 +1,10 @@
+{% extends 'photo/base.html' %}
+{% load static %}
+
+{% block content %}
+<h1>{{ title }}</h1>
+<p><img class="img" src="{% static 'photo/images/grand_photo.jpg' %}"></p>
+<p>На сайте можно располагать подборки фотографий на разные темы.</p>
+<p>Сайт разработан с образовательной целью и имеет развлекательное назначение.</p>
+<p>По всем вопросам можно обращаться к богу.</p>
+{% endblock %}
